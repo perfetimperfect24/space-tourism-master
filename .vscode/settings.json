@@ -1,0 +1,7 @@
+{
+  "tailwindCSS.lint.invalidApply": "warning",
+  "tailwindCSS.lint.invalidConfigPath": "warning",
+  "tailwindCSS.lint.invalidScreen": "warning",
+  "tailwindCSS.lint.invalidTailwindDirective": "warning",
+  "tailwindCSS.lint.invalidVariant": "warning"
+}

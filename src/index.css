@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tabs {
+    @apply p-4 text-center cursor-pointer relative  text-sm text-white;
+  }
+
+  .active-tabs {
+    @apply bg-transparent border-b;
+  }
+  .active-tabs:before {
+    @apply absolute inset-0 content-center transform -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .content {
+    @apply hidden;
+  }
+
+  .active-content {
+    @apply block;
+  }
+
+  .nav-open {
+    @apply;
+  }
+}
